@@ -177,7 +177,7 @@ for d in os.listdir('pool-cleaning'):
                     try:
                         search_categories = open(f'pool-cleaning/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391')
+                        op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
          
                         
                         fp = open(f'pool-cleaning/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('pool-cleaning'):
 for d in os.listdir('pool-cleaning'):
     try:
         search_categories = open(f'pool-cleaning/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391')
+        op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
         # if 'pool-cleaning' in str(d):
         #     shutil.rmtree(f'pool-cleaning/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('pool-cleaning'):
 try:
     search_categories = open(f'pool-cleaning/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'pool-cleaning/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,7 +227,7 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('http://poolcleaningboss.biz/', 'https://poolcleaningboss.netlify.app/').replace('(206) 804-2386', '(888) 498-9391').replace('tel:2068042386', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'pool-cleaning/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
